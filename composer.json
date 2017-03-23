@@ -16,7 +16,7 @@
     },
     "extra": {
       "installer-paths": {
-        "ezazuj": ["laravel-library"]
+        "ujmappa/tesztelek": ["vendor/package"]
       }
     }
 }
