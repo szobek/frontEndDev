@@ -1,8 +1,8 @@
 {
     "name": "szobek/front-end-dev",
-    "description": "It's a directory for my all laravel project. Included: examples (gulp.js, appconfig.js, etc), angular files, sass files with todos, bootstrap, jquery, moment js.",
+    "description": "It's a directory for my all laravel and other project. Included: examples (gulp.js, appconfig.js, etc), angular files, sass files with todos, bootstrap, jquery, moment js.",
     "type": "project",
-    "license": "--",
+    "license": "MIT",
     "authors": [
         {
             "name": "szobek",
@@ -16,7 +16,7 @@
     },
     "extra": {
       "installer-paths": {
-        "your/custom/path/valami/": ["vendor/szobek"]
+        "front_end": ["vendor/package"]
       }
     }
 }
