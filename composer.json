@@ -1,7 +1,7 @@
 {
     "name": "szobek/front-end-dev",
     "description": "It's a directory for my all laravel and other project. Included: examples (gulp.js, appconfig.js, etc), angular files, sass files with todos, bootstrap, jquery, moment js.",
-    "type": "project",
+    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -9,11 +9,15 @@
             "email": "szobek@szobekweb.hu"
         }
     ],
+    "autoload": {
+      "psr-0": {"phpDocumentor\\Composer": "src/"}
+    },
     "version":"0.1-dev",
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "composer/installers": "~1.0"
+        "composer/installers": "~1.0",
+        "composer-plugin-api": "^1.0"
     },
     "extra": {
       "installer-paths": {
