@@ -9,7 +9,7 @@
             "email": "szobek@szobekweb.hu"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "0.1-dev",
     "require": {
         "php": ">=5.4.0",
         "composer/installers": "~1.0"
