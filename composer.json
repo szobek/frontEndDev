@@ -17,7 +17,10 @@
     },
     "extra": {
       "installer-paths": {
-        "sites/example.com/modules/{$name}": ["vendor/package"]
+        "front_end": ["vendor/package"]
       }
+    },
+    "config" : {
+      "vendor-dir" : "mypackage"
     }
 }
