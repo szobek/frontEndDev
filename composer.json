@@ -16,7 +16,7 @@
     },
     "extra": {
       "installer-paths": {
-        "front_end": ["vendor/package"]
+        "sites/example.com/modules/{$name}": ["vendor/package"]
       }
     }
 }
