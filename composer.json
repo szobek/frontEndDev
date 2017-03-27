@@ -1,7 +1,7 @@
 {
     "name": "szobek/front-end-dev",
     "description": "It's a directory for my all laravel and other project. Included: examples (gulp.js, appconfig.js, etc), angular files, sass files with todos, bootstrap, jquery, moment js.",
-    "type": "composer-plugin",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
