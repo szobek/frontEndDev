@@ -9,9 +9,6 @@
             "email": "szobek@szobekweb.hu"
         }
     ],
-    "autoload": {
-      "psr-0": {"phpDocumentor\\Composer": "src/"}
-    },
     "version":"0.1-dev",
     "minimum-stability": "dev",
     "require": {
@@ -19,7 +16,9 @@
         "composer/installers": "~1.0",
         "composer-plugin-api": "^1.0"
     },
-    "config" : {
-      "vendor-dir" : "mypackage/vendor/"
+    "scripts": {
+      "post-create-project-cmd": [
+        "php -r \"copy('config/local-example.php', 'config/local.php');\""
+      ]
     }
 }
